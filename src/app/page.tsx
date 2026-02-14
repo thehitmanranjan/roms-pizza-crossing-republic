@@ -16,6 +16,7 @@ import {
   Facebook
 } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { MobileNav } from "@/components/MobileNav";
 
 export default function LandingPage() {
   const images = {
@@ -33,8 +34,8 @@ export default function LandingPage() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
-              <Pizza className="w-6 h-6" />
+            <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
+              <Image src="/logo.png" alt="Roms Pizza Logo" width={40} height={40} className="object-cover" />
             </div>
             <span className="font-bold text-xl tracking-tight">Roms Pizza</span>
           </div>
@@ -49,6 +50,7 @@ export default function LandingPage() {
           {/* <Button asChild>
             <a href="tel:9540557077">Order Now</a>
           </Button> */}
+          <MobileNav />
         </div>
       </nav>
 
@@ -297,8 +299,8 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-                <Pizza className="w-5 h-5 text-white" />
+              <div className="w-8 h-8 rounded overflow-hidden flex items-center justify-center">
+                <Image src="/logo.png" alt="Roms Pizza Logo" width={32} height={32} className="object-cover" />
               </div>
               <span className="font-bold text-xl">Roms Pizza</span>
             </div>

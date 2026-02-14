@@ -20,6 +20,7 @@ import { VerificationBadge } from "@/components/VerificationBadge";
 import { ShareExport } from "@/components/ShareExport";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Link from "next/link";
+import { MobileNav } from "@/components/MobileNav";
 
 const BUSINESS_DATA = {
   name: "Roms Pizza",
@@ -41,12 +42,12 @@ export default function VerifyPage() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
-              <Pizza className="w-6 h-6" />
+            <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
+              <Image src="/logo.png" alt="Roms Pizza Logo" width={40} height={40} className="object-cover" />
             </div>
             <span className="font-bold text-xl tracking-tight">Roms Pizza</span>
           </Link>
-          <div className="flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-4">
             <div className="flex items-center gap-2 text-sm font-medium text-primary">
               <CheckCircle2 className="h-4 w-4" />
               <span className="hidden sm:inline">Verification Details</span>
@@ -58,6 +59,7 @@ export default function VerifyPage() {
               </Link>
             </Button>
           </div>
+          <MobileNav />
         </div>
       </nav>
 
@@ -66,17 +68,13 @@ export default function VerifyPage() {
           {/* Header Branding */}
           <div className="flex flex-col items-center text-center space-y-2 mb-8 print:mb-4">
             <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center p-2 mb-2">
-              {brandImage ? (
-                <Image 
-                  src={brandImage.imageUrl} 
-                  alt={brandImage.description} 
-                  width={64} 
-                  height={64} 
-                  className="rounded-lg object-cover"
-                />
-              ) : (
-                <Building2 className="w-8 h-8 text-primary" />
-              )}
+              <Image 
+                src="/logo.png" 
+                alt="Roms Pizza Logo" 
+                width={64} 
+                height={64} 
+                className="rounded-lg object-cover"
+              />
             </div>
             <h1 className="text-3xl font-bold tracking-tight text-foreground">CompliancePass</h1>
             <p className="text-muted-foreground text-sm font-medium">Digital Business Verification</p>
@@ -231,8 +229,8 @@ export default function VerifyPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-                <Pizza className="w-5 h-5 text-white" />
+              <div className="w-8 h-8 rounded overflow-hidden flex items-center justify-center">
+                <Image src="/logo.png" alt="Roms Pizza Logo" width={32} height={32} className="object-cover" />
               </div>
               <span className="font-bold text-xl">Roms Pizza</span>
             </div>
