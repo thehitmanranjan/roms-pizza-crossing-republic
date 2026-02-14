@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "pizza-brand",
+      "description": "Logo for Roms Pizza",
+      "imageUrl": "https://images.unsplash.com/photo-1769968079563-65519a9147da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaXp6YSUyMGxvZ298ZW58MHx8fHwxNzcwNjY4MzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza logo"
+    },
+    {
+      "id": "pizza-hero",
+      "description": "Delicious hot pizza with melting cheese",
+      "imageUrl": "https://images.unsplash.com/photo-1593504049359-74330189a345?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaXp6YSUyMGNoZWVzZXxlbnwwfHx8fDE3NzEwNTQ0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza cheese"
+    },
+    {
+      "id": "menu-veg-pizza",
+      "description": "Classic Veg and Cheese Pizza",
+      "imageUrl": "https://images.unsplash.com/photo-1507273026339-31b655f3752d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2ZWdldGFibGUlMjBwaXp6YXxlbnwwfHx8fDE3NzEwNTQ0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegetable pizza"
+    },
+    {
+      "id": "menu-garlic-bread",
+      "description": "Golden brown garlic bread",
+      "imageUrl": "https://images.unsplash.com/photo-1556008531-57e6eefc7be4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYXJsaWMlMjBicmVhZHxlbnwwfHx8fDE3NzA5NDE3ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "garlic bread"
+    },
+    {
+      "id": "menu-pasta",
+      "description": "Creamy italian pasta",
+      "imageUrl": "https://images.unsplash.com/photo-1768668053140-f589ed4bef31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmVhbXklMjBwYXN0YXxlbnwwfHx8fDE3NzEwNTQ0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creamy pasta"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Roms Pizza Kitchen",
+      "imageUrl": "https://images.unsplash.com/photo-1670819917475-d42114832433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXp6YSUyMGtpdGNoZW58ZW58MHx8fHwxNzcxMDU0NDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza kitchen"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Happy customers at Roms Pizza",
+      "imageUrl": "https://images.unsplash.com/photo-1653771926188-24791e462988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMHBlb3BsZSUyMGVhdGluZ3xlbnwwfHx8fDE3NzEwNTQ0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy people eating"
+    }
+  ]
+}
