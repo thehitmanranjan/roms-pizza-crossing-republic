@@ -347,6 +347,8 @@ export default function LandingPage() {
               <li><a href="#menu" className="hover:text-primary">Menu</a></li>
               <li><a href="#about" className="hover:text-primary">About</a></li>
               <li><Link href="/verify" className="hover:text-primary">Verification Details</Link></li>
+              <li><Link href="/terms-and-conditions" className="hover:text-primary">Terms & Conditions</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
             </ul>
           </div>
         </div>
