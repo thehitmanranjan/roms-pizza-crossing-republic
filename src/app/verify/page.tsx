@@ -25,7 +25,7 @@ import { MobileNav } from "@/components/MobileNav";
 const BUSINESS_DATA = {
   name: "Roms Pizza",
   tagline: "Happiness is a slice of Pizza",
-  address: "LG 35, Orbit Plaza, Crossing Republic, Ghaziabad, UP",
+  address: "LG 35, Orbit Plaza, Crossing Republik, Ghaziabad, UP",
   phoneNumber: "9540557077",
   gstNumber: "09AAXFG3971F1ZT",
   panNumber: "AAXFG3971F",
