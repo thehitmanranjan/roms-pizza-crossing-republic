@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { MobileNav } from "@/components/MobileNav";
+import { SubscriptionPopupWrapper } from "@/components/SubscriptionPopupWrapper";
 
 export default function LandingPage() {
   const images = {
@@ -30,6 +31,7 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-background">
+      <SubscriptionPopupWrapper />
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
